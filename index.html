@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/rateYo/2.3.2/jquery.rateyo.min.css">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+
+
+
+
+
+
+
+<header class="header">
+    <div class="container-max">
+      <div class="header__inner">
+        <div class="menu__left">
+          <div class="menu">
+            <div class="menu__btn"></div>
+            <div class="menu__inner">
+              <div class="menu__mobile-top">
+                <div class="menu__btn--close"></div>
+                <a href="#first" class="header__logo">
+                  <img class="menu-logo" src="img/menu-logo.png" alt="logo">
+                </a>
+              </div>
+              <div class="menu__bottom">
+                <ul class="menu__list">
+                  <li class="menu__list-item"><a href="#kinds" class="menu__list-item__link">Виды перевозок </a></li>
+                  <li class="menu__list-item"><a href="#quality" class="menu__list-item__link">Качество работы</a></li>
+                  <li class="menu__list-item"><a href="#team" class="menu__list-item__link">Команда</a></li>
+                  <li class="menu__list-item"><a href="#partners" class="menu__list-item__link">Партнеры</a></li>
+                  <li class="menu__list-item"><a href="#contact" class="menu__list-item__link">Контакты</a></li>
+                </ul>
+                <ul class="menu__list menu__contacts">
+                  <li class="menu__list-item menu__list-item--tel">
+                    <a href="tel:375333775509" class="menu__list-item__link menu__list-item__link--tel">+375 (33) 377 55 09</a>
+                    <a href="tel:74991101412" class="menu__list-item__link menu__list-item__link--tel">+7 (499) 110 14 12</a>
+                    <a href="tel:79118303299" class="menu__list-item__link menu__list-item__link--tel">+7 (911) 830 32 99</a>
+                  </li>
+                  <li class="menu__list-item menu__list-item--adress">
+                    <p class="menu__list-item__text">Советская 68, <br>
+                      Беларусь, г. Брест.
+                    </p>
+                  </li>
+                  <li class="menu__list-item menu__list-item--time">
+                    <p class="menu__list-item__text">09:00 - 18:00<br>
+                      понедельник - пятница</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div><a href="#" class="header__logo">
+            <img class="logo" src="img/logo.png" alt="logo">
+          </a>
+        </div>
+        <div class="header__btn-box">
+          <div class="header__adress-tablet">
+            <p class="header__adress-tablet__text">г. Брест, Беларуcь <br> ул. Советская, 68</p>
+            <p class="header__adress-tablet__text header__adress-tablet__text--clock">9:00 - 18:00<br>
+              Пн - Пт</p>
+          </div>
+          <a class="header__btn-320" href="tel:74991101412">
+            <svg width="19" height="20" viewBox="0 0 19 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M10.5817 6.69283C10.0895 6.02953 9.91298 5.33048 10.4696 4.71342C11.7188 2.96544 12.559 1.88449 13.0859 1.36394C14.0878 0.37429 15.7358 0.508155 16.6035 1.36309C17.0695 1.82229 17.2273 1.97997 17.7058 2.466C20.3711 5.1328 18.7457 10.7703 14.4245 15.0957C10.1044 19.4201 4.46742 21.0464 1.79646 18.374C1.3549 17.9483 0.981047 17.5742 0.686197 17.2626C-0.164087 16.3639 -0.293173 14.7886 0.691792 13.7651C1.19677 13.2404 2.22755 12.4409 4.04908 11.1379C4.60696 10.6391 5.26843 10.7472 5.87487 11.145C6.16659 11.3364 6.37888 11.53 6.77974 11.9313L7.50767 12.6596C7.60355 12.7555 8.90543 12.1036 10.1692 10.8386C11.4336 9.57288 12.0852 8.27093 11.9897 8.17551L11.2613 7.44668C11.1341 7.31937 11.0733 7.25774 10.9953 7.17578C10.8329 7.00504 10.6984 6.85009 10.5817 6.69283ZM6.16517 14.0029L5.4371 13.2745C5.21648 13.0536 5.0735 12.9178 4.95719 12.8242C3.36151 13.9701 2.43738 14.6907 2.05992 15.0829C1.83329 15.3183 1.8685 15.748 2.06551 15.9562C2.33816 16.2444 2.69238 16.5988 3.12706 17.0181C4.85421 18.746 9.40452 17.4331 13.0817 13.7523C16.7601 10.0703 18.0723 5.5193 16.3582 3.80426C15.8817 3.32023 15.7307 3.16931 15.2713 2.71667C15.099 2.54695 14.6299 2.50885 14.4204 2.71582C14.0146 3.1166 13.262 4.08024 12.1549 5.62241C12.2123 5.69357 12.2838 5.77398 12.371 5.86553C12.4349 5.93273 12.4882 5.98672 12.6046 6.10329L13.3323 6.83141C14.5703 8.0693 13.516 10.1761 11.5125 12.1816C9.51037 14.1857 7.40275 15.2412 6.16517 14.0029Z" fill="#0093FF"/>
+            </svg>
+          </a>
+          <a class="header__btn-480" href="tel:74991101412">Обратная связь</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+  <section id="first" class="first-screen">
+    <div class="container">
+      <div class="first-screen__inner">
+        <h1 class="first-screen__title">МЕЖДУНАРОДНЫЕ<br>
+          ГРУЗОПЕРЕВОЗКИ
+        </h1>
+        <div class="first-screen__text">
+          <p>Подача транспорта под загрузку в день обращения
+            c финансовой гарантией исполнения обязательств.</p>
+          <p> Согласуем ставку исходя из Ваших условий
+            c отсрочкой платежа до 60 дней.</p>
+          <p>Подберем от 2-х вариантов транспорта за 30 минут!</p>
+        </div>
+        <div class="contact-btn">
+          <a href="#contact" class="first-screen__btn">Подобрать транспорт</a>
+        </div>
+      </div>
+    </div>
+    <div class="first-screen__social">
+      <a href="#">
+        <svg width="24" height="26" viewBox="0 0 24 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M21.2909 2.48424C20.6621 1.90024 18.1207 0.0435066 12.4601 0.0182813C12.4601 0.0182813 5.78483 -0.386851 2.53072 2.61725C0.719299 4.44072 0.0820728 7.10887 0.0148564 10.4168C-0.05236 13.7248 -0.139324 19.9241 5.79812 21.605H5.80382L5.80002 24.1699C5.80002 24.1699 5.76205 25.2084 6.44143 25.4201C7.26321 25.6769 7.7455 24.8877 8.53007 24.0369C8.96071 23.5699 9.55541 22.8838 10.0035 22.3594C14.0642 22.7034 17.1873 21.9172 17.542 21.801C18.3619 21.5335 23.0013 20.935 23.7559 14.7364C24.5348 8.3472 23.3792 4.30581 21.2909 2.48424ZM21.979 14.2782C21.3422 19.4539 17.5792 19.7792 16.8854 20.0032C16.5903 20.0987 13.8474 20.7855 10.3981 20.5589C10.3981 20.5589 7.82791 23.6796 7.02511 24.491C6.89979 24.6179 6.75244 24.6691 6.65409 24.6438C6.51586 24.6098 6.47788 24.4451 6.4794 24.2043C6.48168 23.8603 6.50143 19.942 6.50143 19.942C6.50143 19.942 6.49839 19.942 6.50143 19.942C1.47881 18.5386 1.7716 13.2623 1.82856 10.4994C1.88552 7.73644 2.40123 5.47305 3.93315 3.95074C6.68561 1.4416 12.3557 1.81653 12.3557 1.81653C17.144 1.83756 19.4385 3.28877 19.9705 3.77493C21.7371 5.29724 22.6372 8.93999 21.979 14.2767V14.2782Z" fill="#454B52"/>
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M12.7351 8.1775C12.744 7.97934 12.8884 7.82707 13.0577 7.83741C13.6913 7.87609 14.2184 8.10051 14.5938 8.55475C14.9678 9.00725 15.1511 9.63939 15.1833 10.3986C15.1917 10.5968 15.0612 10.7654 14.8918 10.7752C14.7225 10.7851 14.5784 10.6324 14.57 10.4342C14.5424 9.78431 14.3901 9.34188 14.1524 9.05433C13.9162 8.76851 13.5557 8.58739 13.0257 8.55504C12.8564 8.5447 12.7263 8.37567 12.7351 8.1775Z" fill="#454B52"/>
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M12.2457 6.66463C12.2579 6.4879 12.4023 6.35512 12.5682 6.36806C13.8337 6.46666 14.8523 6.92703 15.5943 7.78934L15.5944 7.78946C16.3283 8.64327 16.6771 9.70541 16.6518 10.9512C16.6482 11.1284 16.5104 11.2689 16.344 11.2651C16.1776 11.2612 16.0456 11.1145 16.0492 10.9374C16.0715 9.83869 15.7681 8.94201 15.1498 8.22268C14.5333 7.50632 13.6716 7.09744 12.5243 7.00804C12.3583 6.9951 12.2336 6.84135 12.2457 6.66463Z" fill="#454B52"/>
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M11.7551 4.73235C11.7563 4.55208 11.8992 4.40696 12.0742 4.40821C13.9132 4.42141 15.4676 5.05204 16.7156 6.30529C17.9741 7.56902 18.5965 9.28947 18.6122 11.4262C18.6136 11.6065 18.4728 11.7538 18.2978 11.7551C18.1228 11.7565 17.9798 11.6115 17.9785 11.4312C17.9637 9.42895 17.3854 7.8896 16.2732 6.77276C15.1506 5.64544 13.7567 5.07314 12.0698 5.06103C11.8948 5.05978 11.7539 4.91262 11.7551 4.73235Z" fill="#454B52"/>
+          <path d="M13.0472 14.6342C13.0472 14.6342 13.4973 14.6722 13.7397 14.3736L14.2123 13.7792C14.4402 13.4844 14.9903 13.2964 15.5289 13.5964C15.9326 13.8266 16.3245 14.0769 16.7031 14.3463C17.0606 14.6091 17.7927 15.2199 17.7949 15.2199C18.1437 15.5143 18.2242 15.9466 17.9868 16.4024C17.9868 16.4051 17.9849 16.4096 17.9849 16.4119C17.7234 16.8652 17.3914 17.274 17.0014 17.6229C16.9968 17.6251 16.9968 17.6274 16.9926 17.6297C16.6538 17.9128 16.3209 18.0738 15.9939 18.1125C15.9458 18.1209 15.8968 18.124 15.848 18.1216C15.7039 18.123 15.5604 18.1009 15.4233 18.0563L15.4127 18.0407C14.909 17.8986 14.0679 17.5431 12.6673 16.7705C11.8567 16.3286 11.0851 15.819 10.3606 15.2469C9.99748 14.9603 9.65109 14.6532 9.32316 14.3269L9.28821 14.292L9.25326 14.257L9.21831 14.2221C9.20653 14.2107 9.19514 14.1989 9.18336 14.1871C8.85707 13.8592 8.54988 13.5128 8.26328 13.1497C7.69125 12.4254 7.18153 11.6539 6.73957 10.8437C5.96689 9.44278 5.61132 8.60254 5.46924 8.0981L5.45367 8.08747C5.40913 7.95037 5.38719 7.80694 5.38871 7.66279C5.38605 7.614 5.38898 7.56506 5.39744 7.51693C5.43822 7.19051 5.59941 6.85738 5.88103 6.51754C5.88331 6.51336 5.88559 6.51336 5.88787 6.5088C6.23672 6.11882 6.64554 5.78696 7.09894 5.52575C7.10122 5.52575 7.10578 5.52347 7.10844 5.52347C7.5643 5.28606 7.9966 5.36659 8.29063 5.7134C8.29291 5.71568 8.90263 6.44765 9.16436 6.80509C9.43379 7.18408 9.68407 7.57632 9.91425 7.98035C10.2144 8.5186 10.0263 9.06976 9.73153 9.29691L9.13701 9.76945C8.83691 10.0118 8.87641 10.4619 8.87641 10.4619C8.87641 10.4619 9.75698 13.7943 13.0472 14.6342Z" fill="#454B52"/>
+        </svg>
+      </a>
+      <a href="#">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M20.1994 3.73336C18.0845 1.61669 15.2719 0.450408 12.2753 0.449219C6.10093 0.449219 1.07575 5.47247 1.07328 11.6469C1.07249 13.6205 1.5883 15.5471 2.56856 17.2453L0.979355 23.0483L6.91768 21.4911C8.55387 22.3832 10.396 22.8533 12.2708 22.8541H12.2754C18.4492 22.8541 23.4748 17.8303 23.4773 11.6558C23.4785 8.66361 22.3144 5.85004 20.1994 3.73336ZM12.2754 20.9628H12.2716C10.6009 20.9622 8.96231 20.5135 7.53279 19.6655L7.19278 19.4638L3.66889 20.3879L4.60949 16.9532L4.38806 16.601C3.45606 15.1191 2.96382 13.4062 2.96455 11.6476C2.96657 6.51573 7.14333 2.34055 12.279 2.34055C14.7659 2.3415 17.1036 3.31096 18.8615 5.07023C20.6193 6.8295 21.5869 9.16808 21.5859 11.6551C21.5839 16.7874 17.4072 20.9628 12.2754 20.9628ZM17.3825 13.9919C17.1025 13.8518 15.7265 13.1749 15.4699 13.0815C15.2133 12.9881 15.0268 12.9414 14.8401 13.2216C14.6536 13.5017 14.1172 14.132 13.9538 14.3187C13.7906 14.5054 13.6273 14.5288 13.3474 14.3887C13.0675 14.2487 12.1656 13.9532 11.0966 12.9999C10.2645 12.2581 9.70273 11.3417 9.53947 11.0615C9.3762 10.7814 9.52211 10.63 9.66222 10.4905C9.78812 10.3651 9.94211 10.1637 10.0821 10.0003C10.222 9.83694 10.2687 9.72016 10.362 9.53344C10.4553 9.34668 10.4086 9.18327 10.3386 9.04322C10.2687 8.90317 9.70886 7.52591 9.47562 6.96568C9.24845 6.42006 9.01764 6.49389 8.84584 6.48531C8.68275 6.4772 8.49597 6.47549 8.3094 6.47549C8.12283 6.47549 7.81958 6.5455 7.56302 6.82563C7.30647 7.10576 6.58341 7.78271 6.58341 9.15993C6.58341 10.5372 7.58633 11.8677 7.72629 12.0544C7.86625 12.2412 9.69996 15.0675 12.5077 16.2795C13.1756 16.5678 13.6969 16.7399 14.1034 16.8689C14.7739 17.0818 15.3841 17.0518 15.8664 16.9798C16.4042 16.8994 17.5224 16.3029 17.7557 15.6493C17.9889 14.9956 17.9889 14.4354 17.9189 14.3187C17.8489 14.202 17.6624 14.132 17.3825 13.9919Z" fill="#454B52"/>
+        </svg>
+      </a>
+      <a href="#">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M8.49046 12.2243C8.49046 10.1505 10.1712 8.46889 12.2451 8.46889C14.319 8.46889 16.0007 10.1505 16.0007 12.2243C16.0007 14.2981 14.319 15.9797 12.2451 15.9797C10.1712 15.9797 8.49046 14.2981 8.49046 12.2243ZM6.46028 12.2243C6.46028 15.4191 9.05014 18.0089 12.2451 18.0089C15.4401 18.0089 18.0299 15.4191 18.0299 12.2243C18.0299 9.02945 15.4401 6.43969 12.2451 6.43969C9.05014 6.43969 6.46028 9.02945 6.46028 12.2243ZM16.9071 6.21033C16.907 6.4777 16.9861 6.73909 17.1346 6.96146C17.2831 7.18383 17.4941 7.35718 17.7411 7.4596C17.9881 7.56201 18.2599 7.58889 18.5222 7.53684C18.7844 7.48478 19.0254 7.35613 19.2145 7.16715C19.4036 6.97816 19.5325 6.73734 19.5848 6.47513C19.637 6.21292 19.6104 5.9411 19.5081 5.69404C19.4059 5.44699 19.2327 5.23579 19.0105 5.08716C18.7882 4.93853 18.5269 4.85914 18.2595 4.85903H18.259C17.9006 4.8592 17.5569 5.00161 17.3034 5.25497C17.0499 5.50834 16.9074 5.85195 16.9071 6.21033ZM7.69375 21.394C6.59538 21.344 5.99838 21.161 5.60165 21.0065C5.07567 20.8017 4.70039 20.5578 4.30582 20.1638C3.91125 19.7698 3.667 19.3949 3.46314 18.8689C3.30848 18.4724 3.12553 17.8752 3.0756 16.7769C3.02098 15.5895 3.01008 15.2328 3.01008 12.2244C3.01008 9.216 3.02188 8.86029 3.0756 7.67185C3.12562 6.57352 3.30992 5.97754 3.46314 5.57983C3.66791 5.05388 3.91179 4.67861 4.30582 4.28405C4.69985 3.8895 5.07477 3.64526 5.60165 3.44141C5.9982 3.28676 6.59538 3.10381 7.69375 3.05388C8.88125 2.99927 9.23797 2.98836 12.2451 2.98836C15.2523 2.98836 15.6093 3.00017 16.7978 3.05388C17.8962 3.1039 18.4922 3.2882 18.8899 3.44141C19.4159 3.64526 19.7912 3.89004 20.1858 4.28405C20.5803 4.67807 20.8237 5.05388 21.0284 5.57983C21.1831 5.97637 21.3661 6.57352 21.416 7.67185C21.4706 8.86029 21.4815 9.216 21.4815 12.2244C21.4815 15.2328 21.4706 15.5885 21.416 16.7769C21.366 17.8752 21.1821 18.4722 21.0284 18.8689C20.8237 19.3949 20.5798 19.7702 20.1858 20.1638C19.7917 20.5575 19.4159 20.8017 18.8899 21.0065C18.4934 21.1611 17.8962 21.3441 16.7978 21.394C15.6103 21.4486 15.2536 21.4595 12.2451 21.4595C9.23661 21.4595 8.88089 21.4486 7.69375 21.394ZM7.60047 1.02721C6.40116 1.08182 5.58164 1.27198 4.86595 1.55046C4.12475 1.83804 3.4973 2.22385 2.87029 2.84984C2.24328 3.47583 1.85844 4.10426 1.57085 4.84543C1.29236 5.56154 1.1022 6.38057 1.04758 7.57983C0.992063 8.78098 0.979355 9.16499 0.979355 12.2243C0.979355 15.2836 0.992063 15.6676 1.04758 16.8688C1.1022 18.0681 1.29236 18.887 1.57085 19.6032C1.85844 20.3439 2.24337 20.973 2.87029 21.5987C3.49721 22.2245 4.12475 22.6097 4.86595 22.8981C5.58299 23.1766 6.40116 23.3668 7.60047 23.4214C8.8023 23.476 9.18569 23.4896 12.2451 23.4896C15.3045 23.4896 15.6886 23.4769 16.8898 23.4214C18.0892 23.3668 18.9081 23.1766 19.6243 22.8981C20.365 22.6097 20.9929 22.2247 21.6199 21.5987C22.2469 20.9727 22.631 20.3439 22.9194 19.6032C23.1979 18.887 23.3889 18.068 23.4426 16.8688C23.4973 15.6667 23.51 15.2836 23.51 12.2243C23.51 9.16499 23.4973 8.78098 23.4426 7.57983C23.388 6.38048 23.1979 5.56109 22.9194 4.84543C22.631 4.10471 22.246 3.47683 21.6199 2.84984C20.9939 2.22286 20.365 1.83804 19.6252 1.55046C18.9081 1.27198 18.0891 1.08092 16.8907 1.02721C15.6895 0.972593 15.3054 0.958984 12.246 0.958984C9.18659 0.958984 8.8023 0.971692 7.60047 1.02721Z" fill="#454B52"/>
+        </svg>
+      </a>
+    </div>
+    <a href="#benefits" id="button" class="first-screen__arrow">
+      <img src="img/arrow-down.svg" alt="">
+    </a>
+  </section>
+
+
+  <section id="benefits" class="benefits">
+    <div class="container">
+      <h3 class="benefits__title">НАШИ преимущества</h3>
+      <div class="benefits__inner">
+        <div class="benefits__top">
+          <h3 class="benefits__top-title">НАШИ преимущества</h3>
+          <div class="benefits__img">
+            <img src="img/fura.png" alt="">
+          </div>
+        </div>
+        <div class="benefits__list">
+          <div class="benefits__item"><img src="img/benefits-1.svg" alt="" class="benefits__item-img">
+            <p class="benefits__item-title">Полное
+              CMR страхование
+            </p>
+          </div>
+          <div class="benefits__item"><img src="img/benefits-2.svg" alt="" class="benefits__item-img">
+            <p class="benefits__item-title">Проверяем каждого нового перевозчика
+            </p>
+          </div>
+          <div class="benefits__item"><img src="img/benefits-3.svg" alt="" class="benefits__item-img">
+            <p class="benefits__item-title">Финансовая гарантия обязательст по договору
+            </p>
+          </div>
+          <div class="benefits__item"><img src="img/benefits-4.svg" alt="" class="benefits__item-img">
+            <p class="benefits__item-title">Обратная связь на каждом этапе
+            </p>
+          </div>
+          <div class="benefits__item"><img src="img/benefits-5.svg" alt="" class="benefits__item-img">
+            <p class="benefits__item-title">Опыт работы более 8 лет
+            </p>
+          </div>
+          <div class="benefits__item"><img src="img/benefits-6.svg" alt="" class="benefits__item-img">
+            <p class="benefits__item-title">Собственный автопарк
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section id="kinds" class="kinds">
+    <div class="container">
+      <h3 class="kinds__title"><span>ВИДЫ</span>
+        осуществляемых ПЕРЕВОЗОК</h3>
+      <div class="kinds__inner">
+        <div class="kinds__item"><img src="img/kinds-1.svg" alt="" class="kinds__item-img">
+          <p class="kinds__item-text">РЕФРИЖЕРАТОРНЫЕ</p>
+        </div>
+        <div class="kinds__item">
+          <picture class="kinds__item-picture">
+            <source media="(min-width: 768px)" srcset="img/kinds-2.svg">
+            <img src="img/kinds-2-1.svg" alt="" class="kinds__item-img">
+          </picture>
+
+          <p class="kinds__item-text">КОНТЕЙНЕРНЫЕ</p>
+        </div>
+        <div class="kinds__item">
+
+          <picture class="kinds__item-picture">
+            <source media="(min-width: 768px)" srcset="img/kinds-3.svg">
+            <img src="img/kinds-3-1.svg" alt="" class="kinds__item-img">
+          </picture>
+          <p class="kinds__item-text">СБОРНЫЕ ГРУЗЫ</p>
+        </div>
+        <div class="kinds__item"><img src="img/kinds-4.svg" alt="" class="kinds__item-img">
+          <p class="kinds__item-text">ТЕНТОВЫЕ</p>
+        </div>
+        <div class="kinds__item"><img src="img/kinds-5.svg" alt="" class="kinds__item-img">
+          <p class="kinds__item-text">НЕГАБАРИТНЫЕ</p>
+        </div>
+        <div class="kinds__item"><img src="img/kinds-6.svg" alt="" class="kinds__item-img">
+          <p class="kinds__item-text">ЖЕЛЕЗНОДОРОЖНЫЕ</p>
+        </div>
+        <div class="kinds__item">
+          <picture class="kinds__item-picture">
+            <source media="(min-width: 768px)" srcset="img/kinds-7.svg">
+            <img src="img/kinds-7-1.svg" alt="" class="kinds__item-img">
+          </picture>
+          <p class="kinds__item-text">АВИАПЕРЕВОЗКИ</p>
+        </div>
+        <div class="kinds__item"><img src="img/kinds-8.svg" alt="" class="kinds__item-img">
+          <p class="kinds__item-text">МУЛЬТИМОДАЛЬНЫЕ</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="us">
+    <div class="container">
+      <h2 class="us__title"><span>Мы</span>
+        за долгосрочные
+        деловые отношения! </h2>
+    </div>
+    <div class="us__inner">
+      <div class="container">
+        <div class="us__top">
+          <p class="us__top-text us__top-title"><span>Крат</span>
+            Григорий Михайлович</p>
+          <p class="us__top-text">Директор
+            ООО «Трансис»
+           </p>
+          <a class="us__top-text" href="tel:375292089191"> +375 29  208 91 91</a>
+        </div>
+        <div class="us__bottom">
+          <ul class="us__list">
+            <li class="us__list-item">
+              <h6 class="us__list-item__title">
+                Экономия и деловой подход
+              </h6>
+              <p class="us__list-item__text"> 1-ю перевозку выполняем по себестоимости. Вы оцениваете качество нашей работы.
+                Вносите правки, если это необходимо.</p>
+            </li>
+            <li class="us__list-item">
+              <h6 class="us__list-item__title">Компетентность
+               </h6>
+              <p class="us__list-item__text"> Исключаем увеличение ставки и непредвиденные расходы в процессе перевозки за счет детальной проработки
+                маршрута.</p>
+            </li>
+            <li class="us__list-item">
+              <h6 class="us__list-item__title">Ответсвенность
+               </h6>
+              <p class="us__list-item__text"> Несогласованные расходы на этапе заключения договора ложатся на нас.</p>
+            </li>
+            <li class="us__list-item">
+              <h6 class="us__list-item__title">Надежность
+              </h6>
+              <p class="us__list-item__text">  Согласовываем ставку исходя из Ваших условий, фиксируем стоимость в договоре.</p>
+            </li>
+            <li class="us__list-item">
+              <h6 class="us__list-item__title">Лояльность
+              </h6>
+              <p class="us__list-item__text"> В случае нарушения договоренностей (опоздания, простои, срывы и т.д.) обсуждаем штрафные санкции и
+                меняем условия договора в пользу заказчика на любом этапе перевозки.</p>
+            </li>
+          </ul>
+          <div class="contact-btn">
+            <a class="us__btn" href="#contact">Оцените качество наших услуг</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="slider">
+    <div class="slider__item"><img src="img/slider/1.png" alt="slider-img" class="slider__img"></div>
+    <div class="slider__item"><img src="img/slider/2.png" alt="slider-img" class="slider__img"></div>
+    <div class="slider__item"><img src="img/slider/3.png" alt="slider-img" class="slider__img"></div>
+    <div class="slider__item"><img src="img/slider/4.png" alt="slider-img" class="slider__img"></div>
+    <div class="slider__item"><img src="img/slider/5.png" alt="slider-img" class="slider__img"></div>
+    <div class="slider__item"><img src="img/slider/6.png" alt="slider-img" class="slider__img"></div>
+    <div class="slider__item"><img src="img/slider/7.png" alt="slider-img" class="slider__img"></div>
+    <div class="slider__item"><img src="img/slider/8.png" alt="slider-img" class="slider__img"></div>
+    <div class="slider__item"><img src="img/slider/9.png" alt="slider-img" class="slider__img"></div>
+  </div>
+
+
+
+
+<section class="guarantee">
+  <div class="container">
+    <h2 class="guarantee__title">МЫ ГАРАНТИРУЕМ</h2>
+    <div class="guarantee__inner">
+      <div class="guarantee__tabs tabs-wrapper">
+        <a href="#tab-1" class="tab tab--active">Скорость</a>
+        <a href="#tab-2" class="tab">Комфорт</a>
+        <a href="#tab-3"  class="tab">Надежность</a>
+        <a href="#tab-4"  class="tab">Безопасность</a>
+        <a href="#tab-5"  class="tab">Экономия</a>
+      </div>
+      <div class="guarantee__img-box">
+        <img src="img/first-bg.jpg" alt="" class="guarantee__img">
+      </div>
+      <div class="guarantee__content">
+        <div class="tabs-content tabs-content--active" id="tab-1">
+          <div class="tabs-content__inner">
+            <p class="tabs-content__item">Подача транспорта в день обращения</p>
+            <p class="tabs-content__item">Собственный втопарк</p>
+            <p class="tabs-content__item">Экипаж 2 водителя</p>
+          </div>
+        </div>
+        <div class="tabs-content" id="tab-2">
+          <div class="tabs-content__inner">
+            <p class="tabs-content__item">Реакция на запрос до 5 минут</p>
+            <p class="tabs-content__item">Обратная связь на каждом этапе перевозки</p>
+            <p class="tabs-content__item">Связь с диспетчером 24/7</p>
+          </div>
+        </div>
+        <div class="tabs-content" id="tab-3">
+          <div class="tabs-content__inner">
+            <p class="tabs-content__item">Стаж водителей более 5 лет</p>
+            <p class="tabs-content__item">Нас рекомендуют</p>
+            <p class="tabs-content__item">Работаем с 2012 года</p>
+          </div>
+        </div>
+        <div class="tabs-content" id="tab-4">
+          <div class="tabs-content__inner">
+            <p class="tabs-content__item">CMR – страхование экспедиции и транспорта</p>
+            <p class="tabs-content__item">Контроль качества работы на каждом этапе</p>
+            <p class="tabs-content__item">Проверяем каждого перевозчика</p>
+          </div>
+        </div>
+        <div class="tabs-content" id="tab-5">
+          <div class="tabs-content__inner">
+            <p class="tabs-content__item">Финансовая гарантия обязательств</p>
+            <p class="tabs-content__item">Согласуем ставку исходя из Ваших условий</p>
+            <p class="tabs-content__item">От 0,5 евро за 1 км пробега</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="guarantee-mobile guarantee">
+  <h2 class="guarantee__title">МЫ ГАРАНТИРУЕМ</h2>
+    <div class="guarantee__inner">
+      <div class="guarantee__tabs tabs-wrapper">
+        <div class="guarantee__item">
+          <a href="#tab-1-1" class="tab tab--active">Скорость</a>
+          <div class="tabs-content tabs-content--active" id="tab-1-1">
+            <ul class="tabs-content__inner">
+              <li class="tabs-content__item">Подача транспорта в день обращения</li>
+              <li class="tabs-content__item">Собственный втопарк</li>
+              <li class="tabs-content__item">Экипаж 2 водителя</li>
+            </ul>
+          </div>
+        </div>
+        <div class="guarantee__item">
+          <a href="#tab-2-1" class="tab tab-2">Комфорт</a>
+          <div class="tabs-content" id="tab-2-1">
+            <ul class="tabs-content__inner">
+              <li class="tabs-content__item">Реакция на запрос до 5 минут</li>
+              <li class="tabs-content__item">Обратная связь на каждом этапе перевозки</li>
+              <li class="tabs-content__item">Связь с диспетчером 24/7</li>
+            </ul>
+          </div>
+        </div>
+        <div class="guarantee__item">
+          <a href="#tab-3-1"  class="tab tab-3">Надежность</a>
+          <div class="tabs-content" id="tab-3-1">
+            <ul class="tabs-content__inner">
+              <li class="tabs-content__item">Стаж водителей более 5 лет</li>
+              <li class="tabs-content__item">Нас рекомендуют</li>
+              <li class="tabs-content__item">Работаем с 2012 года</li>
+            </ul>
+          </div>
+        </div>
+        <div class="guarantee__item">
+          <a href="#tab-4-1"  class="tab tab-4">Безопасность</a>
+          <div class="tabs-content" id="tab-4-1">
+            <ul class="tabs-content__inner">
+              <li class="tabs-content__item">CMR – страхование экспедиции и транспорта</li>
+              <li class="tabs-content__item">Контроль качества работы на каждом этапе</li>
+              <li class="tabs-content__item">Проверяем каждого перевозчика</li>
+            </ul>
+          </div>
+        </div>
+        <div class="guarantee__item">
+          <a href="#tab-5-1"  class="tab tab-5">Экономия</a>
+          <div class="tabs-content" id="tab-5-1">
+            <ul class="tabs-content__inner">
+              <li class="tabs-content__item">Финансовая гарантия обязательств</li>
+              <li class="tabs-content__item">Согласуем ставку исходя из Ваших условий</li>
+              <li class="tabs-content__item">От 0,5 евро за 1 км пробега</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+<section class="team" id="team">
+  <div class="container">
+    <div class="team__inner">
+      <h2 class="team__title">Наша команда</h2>
+      <div class="team__img-box">
+        <img src="img/team/1.jpg" alt="" class="team__img">
+        <img src="img/team/2.jpg" alt="" class="team__img">
+        <img src="img/team/3.jpg" alt="" class="team__img">
+        <img src="img/team/4.jpg" alt="" class="team__img">
+        <img src="img/team/5.jpg" alt="" class="team__img">
+        <img src="img/team/6.jpg" alt="" class="team__img">
+        <img src="img/team/7.jpg" alt="" class="team__img">
+        <img src="img/team/8.jpg" alt="" class="team__img">
+        <img src="img/team/9.jpg" alt="" class="team__img">
+        <img src="img/team/10.jpg" alt="" class="team__img">
+        <img src="img/team/11.jpg" alt="" class="team__img">
+        <img src="img/team/12.jpg" alt="" class="team__img">
+      </div>
+      <div class="team__text-box">
+        <p>Мы молодая и предприимчивая команда!</p>
+        <p> Несмотря на молодость, у нас большой опыт в международных перевозках, который мы постоянно расширяем благодаря собственному автопарку. Сложные моменты разбираем и добавляем в регламенты работы. Автоматизируем бизнес-процессы. Благодаря этому все риски сводим к минимуму.</p>        <p>  Для экономии Вашего времени и денег используем опыт работы с собственным транспортом (рефрижераторные, негабаритные, блочные, контейнерные, мультимодальные перевозки)!</p>
+        <p> Вносим вклад в развитие Вашего бизнеса!</p>
+      </div>
+      <div class="contact-btn">
+        <a href="#contact" class="team__btn contact-btn">Доверьте груз нашей команде</a>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="quality" class="recommend">
+  <div class="container">
+    <div class="recommend__title-box">
+      <h2 class="recommend__title">Нас рекомендуют</h2>
+      <p class="recommend__subtitle"> Согласитесь, это важно.</p>
+    </div>
+  </div>
+
+  <div class="comment__items">
+
+    <div class="comment__item-inner">
+        <div class="comment__item">
+          <div class="comment__item-top">
+            <div class="comment__item-avatar__box">
+              <img src="img/avatar.svg" alt="" class="comment__item-avatar">
+            </div>
+            <div class="comment__item-info">
+              <p class="comment__item-name">Фамили Имя</p>
+              <p class="comment__item-date">29 янв. 2019 г. 19:04</p>
+            </div>
+            <div class="rate-yo comment__item-rate-yo" data-rateyo-rating="1"></div>
+          </div>
+          <div class="comment__item-text">Хочу выразить благодарность компании Трансис за оказанные услуги по доставке товаров из Москвы. Быстро,качественно, всегда в срок. Работаю с ними уже 2 года и никаких нареканий. Особую благодарность менеджеру Тане за терпение, а водителю Андрею за скорость заставки. Успехов!</div>
+        </div>
+    </div>
+
+    <div class="comment__item-inner">
+      <div class="comment__item">
+        <div class="comment__item-top">
+          <div class="comment__item-avatar__box">
+            <img src="img/avatar.svg" alt="" class="comment__item-avatar">
+          </div>
+          <div class="comment__item-info">
+            <p class="comment__item-name">Фамили Имя</p>
+            <p class="comment__item-date">29 янв. 2019 г. 19:04</p>
+          </div>
+          <div class="rate-yo comment__item-rate-yo" data-rateyo-rating="4"></div>
+        </div>
+        <div class="comment__item-text">Хочу выразить благодарность компании Трансис за оказанные услуги по доставке товаров из Москвы. Быстро,качественно, всегда в срок. Работаю с ними уже 2 года и никаких нареканий. Особую благодарность менеджеру Тане за терпение, а водителю Андрею за скорость заставки. Успехов!</div>
+      </div>
+    </div>
+
+    <div class="comment__item-inner">
+      <div class="comment__item">
+        <div class="comment__item-top">
+          <div class="comment__item-avatar__box">
+            <img src="img/avatar.svg" alt="" class="comment__item-avatar">
+          </div>
+          <div class="comment__item-info">
+            <p class="comment__item-name">Фамили Имя</p>
+            <p class="comment__item-date">29 янв. 2019 г. 19:04</p>
+          </div>
+          <div class="rate-yo comment__item-rate-yo" data-rateyo-rating="2"></div>
+        </div>
+        <div class="comment__item-text">Хочу выразить благодарность компании Трансис за оказанные услуги по доставке товаров из Москвы. Быстро,качественно, всегда в срок. Работаю с ними уже 2 года и никаких нареканий. Особую благодарность менеджеру Тане за терпение, а водителю Андрею за скорость заставки. Успехов!</div>
+      </div>
+    </div>
+
+    <div class="comment__item-inner">
+      <div class="comment__item">
+        <div class="comment__item-top">
+          <div class="comment__item-avatar__box">
+            <img src="img/avatar.svg" alt="" class="comment__item-avatar">
+          </div>
+          <div class="comment__item-info">
+            <p class="comment__item-name">Фамили Имя</p>
+            <p class="comment__item-date">29 янв. 2019 г. 19:04</p>
+          </div>
+          <div class="rate-yo comment__item-rate-yo" data-rateyo-rating="5"></div>
+        </div>
+        <div class="comment__item-text">Хочу выразить благодарность компании Трансис за оказанные услуги по доставке товаров из Москвы. Быстро,качественно, всегда в срок. Работаю с ними уже 2 года и никаких нареканий. Особую благодарность менеджеру Тане за терпение, а водителю Андрею за скорость заставки. Успехов!</div>
+      </div>
+    </div>
+
+    <div class="comment__item-inner">
+      <div class="comment__item">
+        <div class="comment__item-top">
+          <div class="comment__item-avatar__box">
+            <img src="img/avatar.svg" alt="" class="comment__item-avatar">
+          </div>
+          <div class="comment__item-info">
+            <p class="comment__item-name">Фамили Имя</p>
+            <p class="comment__item-date">29 янв. 2019 г. 19:04</p>
+          </div>
+          <div class="rate-yo comment__item-rate-yo" data-rateyo-rating="3"></div>
+        </div>
+        <div class="comment__item-text">Хочу выразить благодарность компании Трансис за оказанные услуги по доставке товаров из Москвы. Быстро,качественно, всегда в срок. Работаю с ними уже 2 года и никаких нареканий. Особую благодарность менеджеру Тане за терпение, а водителю Андрею за скорость заставки. Успехов!</div>
+      </div>
+    </div>
+
+    <div class="comment__item-inner">
+      <div class="comment__item">
+        <div class="comment__item-top">
+          <div class="comment__item-avatar__box">
+            <img src="img/avatar.svg" alt="" class="comment__item-avatar">
+          </div>
+          <div class="comment__item-info">
+            <p class="comment__item-name">Фамили Имя</p>
+            <p class="comment__item-date">29 янв. 2019 г. 19:04</p>
+          </div>
+          <div class="rate-yo comment__item-rate-yo" data-rateyo-rating="2"></div>
+        </div>
+        <div class="comment__item-text">Хочу выразить благодарность компании Трансис за оказанные услуги по доставке товаров из Москвы. Быстро,качественно, всегда в срок. Работаю с ними уже 2 года и никаких нареканий. Особую благодарность менеджеру Тане за терпение, а водителю Андрею за скорость заставки. Успехов!</div>
+      </div>
+    </div>
+
+    <div class="comment__item-inner">
+      <div class="comment__item">
+        <div class="comment__item-top">
+          <div class="comment__item-avatar__box">
+            <img src="img/avatar.svg" alt="" class="comment__item-avatar">
+          </div>
+          <div class="comment__item-info">
+            <p class="comment__item-name">Фамили Имя</p>
+            <p class="comment__item-date">29 янв. 2019 г. 19:04</p>
+          </div>
+          <div class="rate-yo comment__item-rate-yo" data-rateyo-rating="5"></div>
+        </div>
+        <div class="comment__item-text">Хочу выразить благодарность компании Трансис за оказанные услуги по доставке товаров из Москвы. Быстро,качественно, всегда в срок. Работаю с ними уже 2 года и никаких нареканий. Особую благодарность менеджеру Тане за терпение, а водителю Андрею за скорость заставки. Успехов!</div>
+      </div>
+    </div>
+
+    <div class="comment__item-inner">
+      <div class="comment__item">
+        <div class="comment__item-top">
+          <div class="comment__item-avatar__box">
+            <img src="img/avatar.svg" alt="" class="comment__item-avatar">
+          </div>
+          <div class="comment__item-info">
+            <p class="comment__item-name">Фамили Имя</p>
+            <p class="comment__item-date">29 янв. 2019 г. 19:04</p>
+          </div>
+          <div class="rate-yo comment__item-rate-yo" data-rateyo-rating="1"></div>
+        </div>
+        <div class="comment__item-text">Хочу выразить благодарность компании Трансис за оказанные услуги по доставке товаров из Москвы. Быстро,качественно, всегда в срок. Работаю с ними уже 2 года и никаких нареканий. Особую благодарность менеджеру Тане за терпение, а водителю Андрею за скорость заставки. Успехов!</div>
+      </div>
+    </div>
+
+    <div class="comment__item-inner">
+      <div class="comment__item">
+        <div class="comment__item-top">
+          <div class="comment__item-avatar__box">
+            <img src="img/avatar.svg" alt="" class="comment__item-avatar">
+          </div>
+          <div class="comment__item-info">
+            <p class="comment__item-name">Фамили Имя</p>
+            <p class="comment__item-date">29 янв. 2019 г. 19:04</p>
+          </div>
+          <div class="rate-yo comment__item-rate-yo" data-rateyo-rating="4"></div>
+        </div>
+        <div class="comment__item-text">Хочу выразить благодарность компании Трансис за оказанные услуги по доставке товаров из Москвы. Быстро,качественно, всегда в срок. Работаю с ними уже 2 года и никаких нареканий. Особую благодарность менеджеру Тане за терпение, а водителю Андрею за скорость заставки. Успехов!</div>
+      </div>
+    </div>
+
+    <div class="comment__item-inner">
+      <div class="comment__item">
+        <div class="comment__item-top">
+          <div class="comment__item-avatar__box">
+            <img src="img/avatar.svg" alt="" class="comment__item-avatar">
+          </div>
+          <div class="comment__item-info">
+            <p class="comment__item-name">Фамили Имя</p>
+            <p class="comment__item-date">29 янв. 2019 г. 19:04</p>
+          </div>
+          <div class="rate-yo comment__item-rate-yo" data-rateyo-rating="3"></div>
+        </div>
+        <div class="comment__item-text">Хочу выразить благодарность компании Трансис за оказанные услуги по доставке товаров из Москвы. Быстро,качественно, всегда в срок. Работаю с ними уже 2 года и никаких нареканий. Особую благодарность менеджеру Тане за терпение, а водителю Андрею за скорость заставки. Успехов!</div>
+      </div>
+    </div>
+
+
+
+
+
+  </div>
+
+</section>
+
+
+<div class="partners" id="partners">
+ <div class="container">
+   <p class="partners__text">Предоставляем контакты наших партнеров для рекомендаций по запросу! </p>
+ </div>
+  <div class="partners__items">
+    <div class="partners__item"><img src="img/partners/1.svg" alt="partner" class="partners__logo"></div>
+    <div class="partners__item"><img src="img/partners/2.png" alt="partner" class="partners__logo"></div>
+    <div class="partners__item"><img src="img/partners/3.png" alt="partner" class="partners__logo"></div>
+    <div class="partners__item"><img src="img/partners/4.png" alt="partner" class="partners__logo"></div>
+    <div class="partners__item"><img src="img/partners/5.png" alt="partner" class="partners__logo"></div>
+    <div class="partners__item"><img src="img/partners/6.png" alt="partner" class="partners__logo"></div>
+    <div class="partners__item"><img src="img/partners/7.png" alt="partner" class="partners__logo"></div>
+  </div>
+</div>
+
+<section class="form-section">
+  <div class="container">
+    <div class="form-section__inner">
+      <ul class="form-section__list">
+        <li class="form-section__list-item">Подберем 2-3 варианта транспорта за 60 минут
+          по цене от 0,5 евро за 1 км.
+        </li>
+        <li class="form-section__list-item">Согласуем ставку исходя
+          из ваших условий
+        </li>
+        <li class="form-section__list-item">Снизим расходы на доставку до 20%
+          за счёт собственного транспорта</li>
+      </ul>
+      <div class="form-section__form-inner"  id="contact">
+        <div class="form-section__form-content">
+          <h2 class="form-section__form-title">
+            Узнайте<br>
+            стоимость
+            перевозки по своему маршруту
+          </h2>
+          <form class="form-section__form">
+            <input class="form-section__form-input" type="text" placeholder="Укажите ваше имя">
+            <input class="form-section__form-input" type="tel" placeholder="Номер телефона">
+            <button class="form-section__form-btn" type="submit">Узнать</button>
+            <button class="form-section__form-btn form-section__form-btn--close">Отмена</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<div class="map">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3466.633689965539!2d23.695593541246183!3d52.092832090936604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47210bf0aef8911d%3A0x35dd8d5f2626519b!2zItCQ0YDRgtCb0LDQudC9IiDQptC40YTRgNC-0LLQsNGPINC_0L7Qu9C40LPRgNCw0YTQuNGP!5e0!3m2!1sru!2sua!4v1629315917216!5m2!1sru!2sua"  allowfullscreen="" loading="lazy"></iframe>
+  <div class="mask"></div>
+</div>
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer__inner">
+      <div class="footer__contact">
+        <ul class="footer__contact-list">
+          <li class="footer__contact-list__item">
+            <a href="tel:375333775509" class="footer__contact-list__item-link">+375 (33) 377 55 09</a>
+          </li>
+          <li class="footer__contact-list__item">
+            <a href="tel:74991101412" class="footer__contact-list__item-link">+7 (499) 110 14 12</a>
+          </li>
+          <li class="footer__contact-list__item">
+            <a href="tel:79118303299" class="footer__contact-list__item-link">  +7 (911) 830 32 99</a>
+          </li>
+        </ul>
+        <p class="footer__contact-address">Советская 68,<br>
+          Беларусь, г. Брест
+        </p>
+      </div>
+      <div class="footer__right">
+        <p class="footer__time">09:00 - 18:00
+          пн - пт</p>
+        <ul class="footer__social-list">
+          <li class="footer__social-list__item">
+            <a href="#" class="footer__social-list__link">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M2.66659 1.33325H13.3333C14.0696 1.33325 14.6666 1.93021 14.6666 2.66659V13.3333C14.6666 14.0696 14.0696 14.6666 13.3333 14.6666H2.66659C1.93021 14.6666 1.33325 14.0696 1.33325 13.3333V2.66659C1.33325 1.93021 1.93021 1.33325 2.66659 1.33325ZM2.66659 2.66659V13.3333H13.3333V2.66659H2.66659ZM7.42196 8.00285H8.66658V11.9999H9.99992V8.00285H11.3215V6.66952H9.99992V5.99992C9.99992 5.63173 10.2984 5.33325 10.6666 5.33325H11.3333V3.99992H10.6666C9.56202 3.99992 8.66658 4.89535 8.66658 5.99992V6.66952H7.42196V8.00285Z"/>
+              </svg>
+            </a>
+          </li>
+          <li class="footer__social-list__item">
+            <a href="#" class="footer__social-list__link">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M10.6666 1.33325H5.33325C3.12411 1.33325 1.33325 3.12411 1.33325 5.33325V10.6666C1.33325 12.8757 3.12411 14.6666 5.33325 14.6666H10.6666C12.8757 14.6666 14.6666 12.8757 14.6666 10.6666V5.33325C14.6666 3.12411 12.8757 1.33325 10.6666 1.33325ZM2.66659 5.33325C2.66659 3.86049 3.86049 2.66659 5.33325 2.66659H10.6666C12.1393 2.66659 13.3333 3.86049 13.3333 5.33325V10.6666C13.3333 12.1393 12.1393 13.3333 10.6666 13.3333H5.33325C3.86049 13.3333 2.66659 12.1393 2.66659 10.6666V5.33325ZM7.99992 11.3333C6.15897 11.3333 4.66658 9.84087 4.66658 7.99992C4.66658 6.15897 6.15897 4.66658 7.99992 4.66658C9.84087 4.66658 11.3333 6.15897 11.3333 7.99992C11.3333 9.84087 9.84087 11.3333 7.99992 11.3333ZM7.99992 9.99992C9.10449 9.99992 9.99992 9.10449 9.99992 7.99992C9.99992 6.89535 9.10449 5.99992 7.99992 5.99992C6.89535 5.99992 5.99992 6.89535 5.99992 7.99992C5.99992 9.10449 6.89535 9.99992 7.99992 9.99992ZM11.9999 4.66659C11.9999 5.03478 11.7014 5.33325 11.3333 5.33325C10.9651 5.33325 10.6666 5.03478 10.6666 4.66659C10.6666 4.2984 10.9651 3.99992 11.3333 3.99992C11.7014 3.99992 11.9999 4.2984 11.9999 4.66659Z"/>
+              </svg>
+            </a>
+          </li>
+          <li class="footer__social-list__item">
+            <a href="#" class="footer__social-list__link">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M14.0796 3.00543L15.0228 3.11558L14.5988 3.96525C14.3921 4.3796 14.1851 4.79395 13.9779 5.2083C13.9534 5.29606 13.9102 5.373 13.8464 5.47317C13.8197 5.51502 13.7285 5.64816 13.7243 5.65455C13.7002 5.69064 13.6824 5.7191 13.6696 5.74191V7.33427C13.6696 11.4089 9.72627 13.9982 6.00228 13.9982C5.24026 13.9982 4.6613 13.9617 3.99835 13.817C2.90735 13.5789 2.09543 13.1057 1.7239 12.2786L1.34139 11.427L2.27098 11.3415C3.11192 11.2642 3.84104 11.104 4.40098 10.8895C2.86376 10.6423 2.00232 9.96711 2.00232 8.69918V8.03251H2.66899C2.81546 8.03251 2.94754 8.02062 3.06561 7.99881C1.91192 7.30902 1.33407 6.20245 1.33407 4.6676C1.33394 4.60218 1.33394 4.60218 1.33355 4.53223C1.32921 3.7586 1.37077 3.34523 1.58255 2.81765C1.71828 2.47952 1.91447 2.16651 2.17852 1.8797L2.68159 1.33325L3.1707 1.89223C4.78255 3.73432 6.37589 4.85189 8.0027 4.98707C8.00965 3.28728 9.29428 2.00093 11.0028 2.00093C11.7993 2.00093 12.5218 2.30326 13.0896 2.8484C13.4003 2.91226 13.7304 2.96465 14.0796 3.00543ZM12.6057 4.10793L12.4013 4.06165L12.2602 3.90677C11.9189 3.53228 11.4905 3.33427 11.0028 3.33427C10.0275 3.33427 9.33601 4.02919 9.33601 5.00093C9.33601 5.15974 9.3319 5.25953 9.31212 5.39068C9.23318 5.91403 8.93963 6.33427 8.33599 6.33427C6.3373 6.33427 4.53416 5.26353 2.77585 3.43477C2.68521 3.71032 2.66389 3.99357 2.66686 4.52476C2.66727 4.59581 2.66727 4.59581 2.66741 4.6676C2.66741 6.03294 3.22055 6.77977 4.53023 7.19604L4.99496 7.34375V7.83139C4.99496 8.42271 4.43474 8.97935 3.61505 9.22867C3.9908 9.51376 4.75926 9.6676 6.00252 9.6676H6.66919V10.3343C6.66919 11.2894 5.57167 12.0373 3.91376 12.4278C4.45444 12.5935 5.17436 12.6649 6.00228 12.6649C9.07856 12.6649 12.3363 10.5258 12.3363 7.33427V5.6676C12.3363 5.47174 12.393 5.30174 12.4874 5.12498C12.5242 5.05587 12.5648 4.98998 12.6149 4.91483C12.6244 4.90069 12.6594 4.84943 12.6872 4.80845L12.74 4.70278C12.8256 4.53155 12.9112 4.36032 12.9968 4.1891C12.8638 4.16391 12.7334 4.13686 12.6057 4.10793Z"/>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__copy">
+        <div class="footer__logo">
+          <img src="img/logo.png" alt="" class="footer__logo-img">
+        </div>
+        <p class="footer__copy-text">© ООО "Трансис". Все права защищены.
+          Дизайн сайта - GARFIT</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+<!--<picture class="kinds__item-picture">-->
+<!--  <source media="(min-width: 1900px)" srcset="img_pink_flowers.jpg">-->
+<!--  <source media="(min-width: 1000px)" srcset="img_pink_flowers.jpg">-->
+<!--  <source media="(min-width: 768px)" srcset="img_pink_flowers.jpg">-->
+<!--  <source media="(min-width: 480px)" srcset="img_white_flower.jpg">-->
+<!--  <img src="img_orange_flowers.jpg" class="kinds__item-img">-->
+<!--</picture>-->
+
+
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/libs.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/rateYo/2.3.2/jquery.rateyo.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
