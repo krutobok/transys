@@ -8,7 +8,67 @@ $(function(){
     })
 
 
+    let $slider, $comment;
+
+    $comment = ($(window).width()-2060)/2;
+    $slider = $(window).width()-1805;
+
+
+    if ($(window).width() <= 2061){
+        $comment = ($(window).width()-1236)/2
+    }
+    if ($(window).width() <= 1439){
+        $comment = ($(window).width()-867)/2
+    }
+    if ($(window).width() <= 866){
+        $comment = ($(window).width()-289)/2;
+    }
+    if ($(window).width() <= 1805){
+        $slider = $(window).width()-1444;
+    }
+    if ($(window).width() <= 1444){
+        $slider = $(window).width()-1083;
+    }
+    if ($(window).width() <= 1439){
+        $slider = $(window).width()-1425;
+    }
+    if ($(window).width() <= 1425){
+        $slider = $(window).width()-1140;
+    }
+    if ($(window).width() <= 1140){
+        $slider = $(window).width()-855;
+    }
+    if ($(window).width() <= 999){
+        $slider = $(window).width()-976;
+    }
+    if ($(window).width() <= 976){
+        $slider = $(window).width()-732;
+    }
+    if ($(window).width() <= 768){
+        $slider = $(window).width()-732;
+    }
+    if ($(window).width() <= 732){
+        $slider = $(window).width()-549;
+    }
+    if ($(window).width() <= 549){
+        $slider = $(window).width()-366;
+    }
+    if ($(window).width() <= 366){
+        $slider = $(window).width()-183;
+    }
+
+
+
+
+
+
+
+
+
+
     $(document).ready(function(){
+
+        $('.slider .slick-list').css("padding-right", $slider + "px");
 
         $(".menu__list-item, .contact-btn").on("click","a", function (event) {
 
@@ -25,91 +85,102 @@ $(function(){
 
 
 
+
+
+
+
     $('.slider').slick({
         arrows: false,
-        slidesToShow: 6,
+        slidesToShow: 5,
         slidesToScroll: 1,
         responsive: [
             {
                 breakpoint: 1801,
                 settings: {
-                    slidesToShow: 5,
-                    slidesToScroll: 1,
-                }
-            },
-            {
-                breakpoint: 1441,
-                settings: {
-                    slidesToShow: 6,
-                    slidesToScroll: 1,
-                }
-            },
-            {
-                breakpoint: 1426,
-                settings: {
-                    slidesToShow: 5,
-                    slidesToScroll: 1,
-                }
-            },
-            {
-                breakpoint: 1141,
-                settings: {
                     slidesToShow: 4,
                     slidesToScroll: 1,
                 }
             },
             {
-                breakpoint: 1000,
-                settings: {
-                    slidesToShow: 5,
-                    slidesToScroll: 1,
-                }
-            },
-            {
-                breakpoint: 977,
-                settings: {
-                    slidesToShow: 4,
-                    slidesToScroll: 1,
-                }
-            },
-            {
-                breakpoint: 768,
-                settings: {
-                    slidesToShow: 5,
-                    slidesToScroll: 1,
-                }
-            },
-            {
-                breakpoint: 733,
-                settings: {
-                    slidesToShow: 4,
-                    slidesToScroll: 1,
-                }
-            },
-            {
-                breakpoint: 550,
+                breakpoint: 1445,
                 settings: {
                     slidesToShow: 3,
                     slidesToScroll: 1,
                 }
             },
             {
-                breakpoint: 367,
+                breakpoint: 1440,
+                settings: {
+                    slidesToShow: 5,
+                    slidesToScroll: 1,
+                }
+            },
+            {
+                breakpoint: 1426,
+                settings: {
+                    slidesToShow: 4,
+                    slidesToScroll: 1,
+                }
+            },
+            {
+                breakpoint: 1141,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
+                }
+            },
+            {
+                breakpoint: 1000,
+                settings: {
+                    slidesToShow: 4,
+                    slidesToScroll: 1,
+                }
+            },
+            {
+                breakpoint: 977,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 4,
+                    slidesToScroll: 1,
+                }
+            },
+            {
+                breakpoint: 733,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
+                }
+            },
+            {
+                breakpoint: 550,
                 settings: {
                     slidesToShow: 2,
+                    slidesToScroll: 1,
+                }
+            },
+            {
+                breakpoint: 367,
+                settings: {
+                    slidesToShow: 1,
                     slidesToScroll: 1
                 }
             }
         ]
     })
-
-    let $commentMobile = ($(window).width()-289)/2
-
-    let $comment = ($(window).width()-867)/2
-
-    let $commentFullHD = ($(window).width()-1236)/2
-
-    let $commentBigScreen = ($(window).width()-2060)/2
+    //
+    // let $commentMobile = ($(window).width()-289)/2
+    //
+    // let $comment = ($(window).width()-867)/2
+    //
+    // let $commentFullHD = ($(window).width()-1236)/2
+    //
+    // let $commentBigScreen = ($(window).width()-2060)/2
 
 
 
@@ -119,26 +190,23 @@ $(function(){
         arrows: false,
         centerMode: true,
         slidesToShow: 5,
-        centerPadding: $commentBigScreen + 'px',
+        centerPadding: $comment + 'px',
         responsive: [
             {
                 breakpoint: 2061,
                 settings: {
-                    centerPadding: $commentFullHD + 'px',
                     slidesToShow: 3
                 }
             },
             {
                 breakpoint: 1440,
                 settings: {
-                    centerPadding: $comment + 'px',
                     slidesToShow: 3
                 }
             },
             {
                 breakpoint: 867,
                 settings: {
-                    centerPadding: $commentMobile + 'px',
                     slidesToShow: 1
                 }
             }
